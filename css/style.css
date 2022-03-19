@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    margin: auto;
+}
+
+table {
+    color: rgb(61, 51, 204);
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: rgb(24, 17, 121);
+    font-weight: 700;
+}
+
+tr {
+    border: 1px solid #000;
+    padding: 15px 10px;
+    min-width: 300px;
+}
+
+tr:first-child td {
+    display: flex;
+}
+
+.show-array {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    margin: 2px;
+}
+
+tr:nth-last-child(2) {
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+}
+
+tr:last-child td {
+    padding: 5px 0;
+}
+
+.creat-array {
+    margin: 5px;
+}
+
+.array-handle {
+    padding: 10px 0;
+    width: 100%;
+    color: green;
+}
+
+#submit-btn {
+    margin-right: 10px;
+}
